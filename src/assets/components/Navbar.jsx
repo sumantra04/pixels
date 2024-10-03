@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import image from "../images/logo10.png";
 
 const NavBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -37,7 +36,7 @@ const NavBar = () => {
         <div className="text-2xl font-bold">
           <a href="#">
             <img
-              src={`${image}`}
+              src={'/images/logo10.png'}
               alt="Brand Logo"
               className="w-28"
             />
